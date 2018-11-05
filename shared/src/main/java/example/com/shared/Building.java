@@ -1,4 +1,4 @@
-package example.com.adelphimap;
+package example.com.shared;
 
 public class Building {
     public String name;

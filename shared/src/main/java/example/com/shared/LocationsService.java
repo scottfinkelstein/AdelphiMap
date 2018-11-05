@@ -1,4 +1,4 @@
-package example.com.adelphimap;
+package example.com.shared;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

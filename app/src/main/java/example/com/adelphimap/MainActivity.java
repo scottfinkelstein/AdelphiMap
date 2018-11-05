@@ -2,7 +2,6 @@ package example.com.adelphimap;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
-import android.location.Location;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
@@ -17,6 +16,8 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import example.com.shared.Building;
+import example.com.shared.LocationsService;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
